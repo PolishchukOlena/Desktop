@@ -1,0 +1,30 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: baseline;
+}
+
+.menu-link {
+  display: block;
+  background-color: rgb(166, 246, 158);
+  padding: 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+.submenu-list {
+  display: none;
+}
+
+.menu-link:hover {
+  background-color: rgb(73, 131, 67);
+  color: #ffffff;
+}
+
+.submenu-item:hover {
+  display: block;
+}

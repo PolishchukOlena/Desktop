@@ -1,0 +1,39 @@
+h3 {
+  color: blue;
+}
+
+.text {
+  color: yellow;
+}
+
+#paragraph {
+  color: red;
+}
+
+p[target="Repellendus"] {
+  color: green;
+}
+
+.text.purple {
+  color: purple;
+}
+
+*.orange {
+  color: orange;
+}
+
+h4:hover {
+  color: rgb(122, 44, 47);
+}
+
+h5 span {
+  color: rgb(237, 5, 253);
+}
+
+h5 + p {
+  color: rgb(224, 156, 156);
+}
+
+ul > li {
+  color: aqua;
+}
